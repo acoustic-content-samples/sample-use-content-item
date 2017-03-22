@@ -10,7 +10,7 @@
 
 // The base tenant API URL must be set per-tenant, for access to WCH APIs
 // eg const baseTenantAPIURL = "https://my99.digitalexperience.ibm.com/api/00000000-1111-2222-3333-444444444444";
-const baseTenantAPIUrl = "https://{tenant-host}/api/{tenant-id}";
+const baseTenantAPIURL = "https://{tenant-host}/api/{tenant-id}";
 
 // The base tenant delivery host URL is the host where published content url elements may be loaded from.
 // Find the tenant host in the "Hub Information" dialog of the Authoring UI
