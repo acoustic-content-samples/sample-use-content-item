@@ -8,7 +8,8 @@
  * specific language governing permissions and limitations under the License.
  */
 
-// The base tenant API URL must be set per-tenant, for access to WCH APIs
+// The API URL, along with the host and content hub id for your tenant, may be
+// found in the "Hub Information" dialog off the "User menu" in the authoring UI
 // eg const baseTenantAPIURL = "https://my99.digitalexperience.ibm.com/api/00000000-1111-2222-3333-444444444444";
 const baseTenantAPIURL = "https://{tenant-host}/api/{tenant-id}";
 
