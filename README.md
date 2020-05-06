@@ -33,10 +33,10 @@ You can do this right from the file system in Firefox, Chrome, or Safari browser
 
 To retrieve and display a different article from the sample-article-content package, find the contentId JS variable in app.js and change it to match the content id of a different article from the sample article content package.   To load a different type of content altogether, then you would need to update the HTML, css styles and HBS markup to match the elements in the new content type.
 
-###Resources
+## Resources
 
-API Explorer reference documentation: https://developer.ibm.com/api/view/id-618
+Acoustic Content developer documentation: https://developer.goacoustic.com/acoustic-content/docs
 
-Watson Content Hub developer center: https://developer.ibm.com/wch/
+Acoustic Content API reference documentation: https://developer.goacoustic.com/acoustic-content/reference
 
-Watson Content Hub forum: https://developer.ibm.com/answers/smartspace/wch/
+Acoustic Content Samples Gallery: https://content-samples.goacoustic.com/
