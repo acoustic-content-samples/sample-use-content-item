@@ -10,12 +10,12 @@
 
 // The API URL, along with the host and content hub id for your tenant, may be
 // found in the "Hub Information" dialog off the "User menu" in the authoring UI
-// eg const baseTenantAPIURL = "https://my99.digitalexperience.ibm.com/api/00000000-1111-2222-3333-444444444444";
+// eg const baseTenantAPIURL = "https://content-eu-4.content-cms.com/api/00000000-1111-2222-3333-444444444444";
 const baseTenantAPIURL = "https://{tenant-host}/api/{tenant-id}";
 
 // The base tenant delivery host URL is the host where published content url elements may be loaded from.
 // Find the tenant host in the "Hub Information" dialog of the Authoring UI
-// eg const baseTenantDeliveryHostURL = "https://my99.digitalexperience.ibm.com";
+// eg const baseTenantDeliveryHostURL = "https://content-eu-4.content-cms.com";
 const baseTenantDeliveryHostURL = "https://{tenant-host}";
 
 // The Content Item ID that we are going to load for this application

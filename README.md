@@ -12,8 +12,8 @@ Download the application files (html, js, and css) from the 'public' folder into
 
 The baseTenantAPIURL and baseTenantDeliveryHostURL variable used to load the wchHelper in public/js/app.js must be set for your tenant. In the IBM Watson Content Hub user interface, open the "Hub information" dialog from the "About" flyout menu in the left navigation pane. The pop-up window shows your API URL, host and content hub ID for your Watson Content Hub tenant. Use this information to update the value of the baseTenantAPIURL variable in public/js/app.js, in the form https://{host}/api/{content hub tenant id}. For example it might look something like the following (except using your tenant host and tenant id)
 
-const baseTenantAPIURL = "https://my12.digitalexperience.ibm.com/api/12345678-9abc-def0-1234-56789abcdef0";
-const baseTenantDeliveryHostURL = "https://my12.digitalexperience.ibm.com";
+const baseTenantAPIURL = "https://content-eu-4.content-cms.com/api/12345678-9abc-def0-1234-56789abcdef0";
+const baseTenantDeliveryHostURL = "https://content-eu-4.content-cms.com";
 
 #### 3. Load the sample article content
 
